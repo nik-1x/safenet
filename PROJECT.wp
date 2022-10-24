@@ -1,0 +1,46 @@
+PROJECT WHITEPAPER
+
+[SAFE-NET] is open source* application for free
+communication on the Internet via the UDP protocol 
+with user-side encryption algorithms.
+
+You can easily use for personal or commercial purposes.
+
+We are against the use of the project for illegal purposes.
+
+<!-- 
+Open source* is source code that is made freely available 
+for possible modification and redistribution. Products 
+include permission to use the source code, design 
+documents, or content of the product. The open-source 
+model is a decentralized software development model that 
+encourages open collaboration. A main principle of open-
+-source software development is peer production, with 
+products such as source code, blueprints, and 
+documentation freely available to the public. The open-
+-source movement in software began as a response to the 
+limitations of proprietary code. The model is used for 
+projects such as in open-source appropriate technology, 
+and open-source drug discovery. Open source promotes 
+universal access via an open-source or free license to a 
+product's design or blueprint, and universal 
+redistribution of that design or blueprint. Before the 
+phrase open source became widely adopted, developers and 
+producers have used a variety of other terms. 
+-->
+
+[NETWORK]
+Default UPD Protocol-based server, which redirects encrypted data.
+
+[CLIENT]
+Used fernet algorythm to encrypt messages body.
+
+[USAGE]
+python3 main.py
+
+    [server]
+    server <host> <port>
+    server.start
+
+    [client]
+    client <connection_addr> <password>
